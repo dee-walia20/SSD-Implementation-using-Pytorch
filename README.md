@@ -43,10 +43,20 @@ Please check out his github Repo for detailed theory on SSD (Single Shot Detecto
 5) **datasets.py** helps to parse the VOC dataset where Bounding Box info and labels are provided in xml format.
 6) **model.py** contains the base model VGG-16 and Auxillary + Prediction Convolution layers on top of it. Also detect function.
 7) **utils.py** contains the major functions for Creating train and test json files, augumenation, saving the model and many more. 
+8) pytorch==1.2.0 & Nvidia GeForce GTX 1660Ti
 
+---
+
+<p align="center">
+<img src="./img/train.jpg">
+</p>
+
+---
 
 # Evaluation
 I have trained the model for 100 epochs and i am getting the following **Mean Average Precision (mAP): 0.723**
+You can download the model [trained ssd] (https://drive.google.com/file/d/1pa4KJotMQAg0mBqT_xRD1HTDVdVxkCVW/view?usp=sharing) if required.
+
 Below are Avereage Precesion values for all classes:-
 
  | Class | Average Precision |
