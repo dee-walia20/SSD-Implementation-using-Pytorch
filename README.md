@@ -4,7 +4,7 @@ Here are some examples of object detection in images not seen during training â€
 ---
 
 <p align="center">
-<img src="./img/000116.jpg">
+<img src="./img/demo.gif">
 </p>
 
 ---
