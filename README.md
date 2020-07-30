@@ -43,7 +43,7 @@ Please check out his github Repo for detailed theory on SSD (Single Shot Detecto
 5) **datasets.py** helps to parse the VOC dataset where Bounding Box info and labels are provided in xml format.
 6) **model.py** contains the base model VGG-16 and Auxillary + Prediction Convolution layers on top of it. Also detect function.
 7) **utils.py** contains the major functions for Creating train and test json files, augumenation, saving the model and many more. 
-8) pytorch==1.2.0 & Nvidia GeForce GTX 1660Ti
+8) **pytorch==1.2.0** & **Nvidia GeForce GTX 1660Ti**
 
 ---
 
