@@ -55,7 +55,7 @@ Please check out his github Repo for detailed theory on SSD (Single Shot Detecto
 
 # Evaluation
 I have trained the model for 100 epochs and i am getting the following **Mean Average Precision (mAP): 0.723**
-You can download the model [trained ssd] (https://drive.google.com/file/d/1pa4KJotMQAg0mBqT_xRD1HTDVdVxkCVW/view?usp=sharing) if required.
+You can download the model [trained ssd](https://drive.google.com/file/d/1pa4KJotMQAg0mBqT_xRD1HTDVdVxkCVW/view?usp=sharing) if required.
 
 Below are Avereage Precesion values for all classes:-
 
