@@ -14,7 +14,6 @@ Please check out his github Repo for detailed theory on SSD (Single Shot Detecto
 </p>
 
 ---
----
 
 <p align="center">
 <img src="./img/001394.jpg">
