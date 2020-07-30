@@ -1,6 +1,9 @@
 # SSD-Implementation-using-Pytorch
+
 I would like to thank [Sagar Vinodababu] (https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection) for wonderful repoistory on implementing SSD300 using Pytorch.
 Please check out his github Repo for detailed theory on SSD (Single Shot Detector).
+
+**VGG-16 pre-trained model** is used here as Base model with few changes. On top of it auxillary Convolution layers are added to get Feature Maps of different size.
 
 *Who doesn't love to train a machine to perform object detection!*
 
@@ -8,6 +11,13 @@ Please check out his github Repo for detailed theory on SSD (Single Shot Detecto
 
 <p align="center">
 <img src="./img/demo.gif">
+</p>
+
+---
+---
+
+<p align="center">
+<img src="./img/001394.jpg">
 </p>
 
 ---
@@ -23,16 +33,16 @@ Please check out his github Repo for detailed theory on SSD (Single Shot Detecto
 - [2007 _trainval_](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar) (460MB)
 - [2007 _test_](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar) (451MB)
 
-Make sure you extract both the VOC 2007 _trainval_ and 2007 _test_ data to the same location and merge them.Store it in two folders 'VOC2007' and 'VOC2012' with the code.
+Make sure you extract both the VOC 2007 _trainval_ and 2007 _test_ data to the same location and merge them.Store it in **two folders 'VOC2007' and 'VOC2012'** with the code.
 
 # Implemenation
-1) Start with train_lite.ipynb Notebook with the training of the model which runs for 10 epochs at a time. (I just find it more convinient to run it multiple times)
-2) After each epoch, it will save the checkpoint as '.pth.tar' file
-3) Run eval.py once you feel like testing your model.
-4) In the end, execute demo.py to see some real-time detections on set of images and video. You can experiment with min_score, max_overlap, and top_k based on your data and target size.
+1) Start with **train_lite.ipynb** Notebook with the training of the model which runs for 10 epochs at a time. (I just find it more convinient to run Notebook for training multiple times)
+2) After each epoch, it will save the checkpoint as **'.pth.tar' file**.
+3) Run **eval.py** once you feel like testing your model.
+4) In the end, execute **demo.py** to see some real-time detections on set of images and video. You can experiment with min_score, max_overlap, and top_k based on your data and target size.
 
 # Evaluation
-I have trained the model for 100 epochs and i am getting the following *Mean Average Precision (mAP): 0.723*
+I have trained the model for 100 epochs and i am getting the following **Mean Average Precision (mAP): 0.723**
 Below are Avereage Precesion values for all classes:-
 
  | Class | Average Precision |
