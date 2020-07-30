@@ -1,6 +1,6 @@
 # SSD-Implementation-using-Pytorch
 
-I would like to thank [Sagar Vinodababu](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection) for wonderful repoistory on implementing SSD300 using Pytorch.
+I would like to thank [Sagar Vinodababu](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection) for the wonderful repoistory on implementing SSD300 using Pytorch.
 Please check out his github Repo for detailed theory on SSD (Single Shot Detector).
 
 **VGG-16 pre-trained model** is used here as Base model with few changes. On top of it auxillary Convolution layers are added to get Feature Maps of different size.
@@ -57,7 +57,7 @@ Please check out his github Repo for detailed theory on SSD (Single Shot Detecto
 I have trained the model for 100 epochs and i am getting the following **Mean Average Precision (mAP): 0.723**
 You can download the model [trained ssd](https://drive.google.com/file/d/1pa4KJotMQAg0mBqT_xRD1HTDVdVxkCVW/view?usp=sharing) if required.
 
-Below are Avereage Precesion values for all classes:-
+Below are Avereage Precision values for all classes:-
 
  | Class | Average Precision |
  | :-----: | :------: |
