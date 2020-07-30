@@ -1,6 +1,6 @@
 # SSD-Implementation-using-Pytorch
 
-I would like to thank [Sagar Vinodababu] (https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection) for wonderful repoistory on implementing SSD300 using Pytorch.
+I would like to thank [Sagar Vinodababu](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection) for wonderful repoistory on implementing SSD300 using Pytorch.
 Please check out his github Repo for detailed theory on SSD (Single Shot Detector).
 
 **VGG-16 pre-trained model** is used here as Base model with few changes. On top of it auxillary Convolution layers are added to get Feature Maps of different size.
