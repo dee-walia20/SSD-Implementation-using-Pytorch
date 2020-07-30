@@ -20,6 +20,7 @@ Please check out his github Repo for detailed theory on SSD (Single Shot Detecto
 </p>
 
 ---
+
 # Methodology
 1) I have taken SSD 300 variant for this project (300x300 resolution). You can choose to go for SSD512 variant as well just that it is heavier.
 2) This data contains images with twenty different types of objects.
@@ -39,7 +40,7 @@ Please check out his github Repo for detailed theory on SSD (Single Shot Detecto
 1) Start with **train_lite.ipynb** Notebook with the training of the model which runs for 10 epochs at a time. (I just find it more convinient to run Notebook for training multiple times)
 2) After each epoch, it will save the checkpoint as **'.pth.tar' file**.
 3) Run **eval.py** once you feel like testing your model.
-4) In the end, execute **demo.py** to see some real-time detections on set of images and video. You can experiment with min_score, max_overlap, and top_k based on your data and target size.
+4) In the end, execute **demo.py** to see some real-time detections on set of images and video. You can experiment with min_score, max_overlap, and top_k based on your data and target size. You can watch the demo video here [SSD demo](https://www.youtube.com/watch?v=NxKhUOfdvls&t=1s)
 5) **datasets.py** helps to parse the VOC dataset where Bounding Box info and labels are provided in xml format.
 6) **model.py** contains the base model VGG-16 and Auxillary + Prediction Convolution layers on top of it. Also detect function.
 7) **utils.py** contains the major functions for Creating train and test json files, augumenation, saving the model and many more. 
