@@ -35,26 +35,28 @@ Make sure you extract both the VOC 2007 _trainval_ and 2007 _test_ data to the s
 I have trained the model for 100 epochs and i am getting the following *Mean Average Precision (mAP): 0.723*
 Below are Avereage Precesion values for all classes:-
 
- 'aeroplane': 0.7508596181869507,
- 'bicycle': 0.8064944744110107,  
- 'bird': 0.7118245959281921,     
- 'boat': 0.6522005200386047,     
- 'bottle': 0.4388348162174225,   
- 'bus': 0.8313817381858826,      
- 'car': 0.8420098423957825,      
- 'cat': 0.8460454344749451,
- 'chair': 0.4887792468070984,
- 'cow': 0.7463425993919373,
- 'diningtable': 0.7300090789794922,
- 'dog': 0.7909976243972778,
- 'horse': 0.8242510557174683,
- 'motorbike': 0.804941713809967,
- 'person': 0.7624345421791077,
- 'pottedplant': 0.4471535384654999,
- 'sheep': 0.7205353379249573,
- 'sofa': 0.7502992749214172,
- 'train': 0.8156716823577881,
- 'tvmonitor': 0.6981692910194397
+ | Class | Average Precision |
+ | :-----: | :------: |
+ | _aeroplane_ | 0.7508596181869507 |
+ | _bicycle_ | 0.8064944744110107 |  
+ | _bird_ | 0.7118245959281921 |     
+ | _boat_ | 0.6522005200386047 |     
+ | _bottle_ | 0.4388348162174225 |   
+ | _bus_ | 0.8313817381858826 |      
+ | _car_ | 0.8420098423957825 |      
+ | _cat_ | 0.8460454344749451 |
+ | _chair_ | 0.4887792468070984 |
+ | _cow_ | 0.7463425993919373 |
+ | _diningtable_ | 0.7300090789794922 |
+ | _dog_ | 0.7909976243972778 |
+ | _horse_ | 0.8242510557174683 |
+ | _motorbike_ | 0.804941713809967 |
+ | _person_ | 0.7624345421791077 |
+ | _pottedplant_ | 0.4471535384654999 |
+ | _sheep_ | 0.7205353379249573 |
+ | _sofa_ | 0.7502992749214172 |
+ | _train_ | 0.8156716823577881 |
+ | _tvmonitor_ | 0.6981692910194397 |
 
 # Reference
 1. Original Paper on SSD- (https://raw.githubusercontent.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection/master/README.md)
